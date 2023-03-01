@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #2B3034;
+    font-family: sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.subsidiary h4 {
+    font-size: 900;
+    color: #00CE79;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+.soon {
+    font-size: 400%;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    text-align: center;
+}
+.details {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.boxes {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+.title {
+    font-size: 200%;
+}
+.description {
+    font-size: 80%;
+}
+.title, .description {
+    border: 1px solid #242329;
+    background-color: #242329;
+    height: 10px;
+    width: 50px;
+    padding: 1rem;
+}
+.enquiry {
+    text-align: center;
+    padding-top: 1rem;
+}
+.enquiry button {
+    background-color: #00CE79;
+    height: 3rem;
+    border: 1px solid #00CE79;
+    width: 9.9rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.enquiry button:hover {
+    cursor: pointer;
+    background-color: #677B84;
+    border: 1px solid #677B84;
+    color: #242329;
+}
+/* .img-icon {
+    width: 100%;
+    max-width: 2rem;
+    height: auto;
+    color: #ffffff; 
+    font-size: 1.2rem;  
+} */
+.img-icon {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.icons {
+    text-align: center;
+    padding-top: 2rem;
+}
+.icons button {
+    border: 1px solid #ffffff;
+    border-radius: 5rem;
+    border-color: #ffffff;
+    padding: 0.5rem;
+}
+.hero-image img {
+    width: 1000px;
+    height: 700px;
+}
